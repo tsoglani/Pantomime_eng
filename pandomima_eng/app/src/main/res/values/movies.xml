@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="movies">
+        <item>Number 23</item>
+        <item>The Shawshank Redemption</item>
+        <item>The Godfather</item>
+        <item>12 Angry Men </item>
+        <item>The Lord of the Rings</item>
+        <item> Pulp Fiction</item>
+        <item>The Good, the Bad and the Ugly</item>
+        <item>Fight Club</item>
+        <item>Forrest Gump</item>
+        <item>Star Wars</item>
+        <item>Inception</item>
+        <item>One Flew Over the Cuckoo\'s Nest</item>
+        <item>Goodfellas</item>
+        <item>The Matrix</item>
+        <item>Seven Samurai</item>
+        <item>City of God</item>
+        <item>The Silence of the Lambs</item>
+        <item>It\'s a Wonderful Life</item>
+        <item>Life Is Beautiful</item>
+        <item>The Usual Suspects</item>
+        <item>Spirited Away</item>
+        <item>Interstellar</item>
+        <item>Psycho</item>
+        <item>American History X</item>
+        <item>Once Upon a Time in the West</item>
+        <item>Modern Times</item>
+        <item>The Intouchables</item>
+        <item>The Pianist</item>
+        <item>The Departed</item>
+        <item>Terminator</item>
+        <item>Raiders of the Lost Ark</item>
+        <item>Rear Window</item>
+        <item>Whiplash</item>
+        <item>The Lion King</item>
+        <item>Gladiator</item>
+        <item>Wreck it Wralph</item>
+        <item>Up Pixar</item>
+        <item>The Prestige</item>
+        <item>Memento</item>
+        <item>Apocalypse Now</item>
+        <item>Alien</item>
+        <item>The Great Dictator</item>
+        <item>Cinema Paradiso</item>
+        <item>Sunset Boulevard</item>
+        <item>Grave of the Fireflies</item>
+        <item>The Lives of Others</item>
+        <item>Paths of Glory</item>
+        <item>The Shining </item>
+        <item>WALL·E</item>
+        <item>American Beauty</item>
+        <item>Witness for the Prosecution</item>
+        <item>Once Upon a Time in America</item>
+        <item>Citizen Kane</item>
+        <item>North by Northwest</item>
+        <item>Braveheart</item>
+        <item>Reservoir Dogs</item>
+        <item>Your Name</item>
+        <item>Requiem for a Dream</item>
+        <item>A Clockwork Orange</item>
+        <item>Eternal Sunshine of the Spotless Mind</item>
+        <item>Double Indemnity</item>
+        <item>Taxi Driver</item>
+        <item>Singin\' in the Rain</item>
+        <item>Toy Story</item>
+        <item>To Kill a Mockingbird</item>
+        <item>Full Metal Jacket</item>
+        <item>Inglourious Basterds</item>
+        <item>The Sting</item>
+        <item>Bicycle Thieves</item>
+        <item>natch</item>
+        <item>Good Will Hunting</item>
+        <item>The Hunt</item>
+        <item>Scarface</item>
+        <item>For a Few Dollars More</item>
+        <item>The Apartment</item>
+        <item>A Separation</item>
+        <item>Some Like It Hot</item>
+        <item>Unforgiven</item>
+        <item>My Father and My Son</item>
+        <item>Die Hard</item>
+        <item>Heat!</item>
+        <item>Raging Bull </item>
+        <item>The Great Escape</item>
+        <item>The Third Man</item>
+        <item>Children of Heaven</item>
+        <item>Incendies</item>
+        <item>The Secret in Their Eyes</item>
+        <item>The Gold Rush</item>
+        <item>The Bridge on the River Kwai</item>
+        <item>Inside Out</item>
+        <item>Lock, Stock and Two Smoking Barrels</item>
+        <item>The Seventh Seal</item>
+        <item>A Beautiful Mind</item>
+        <item>Casino</item>
+        <item>The Elephant Man</item>
+        <item>The Wolf of Wall Street</item>
+        <item>Blade Runner</item>
+        <item>Wild Strawberries</item>
+        <item>The General </item>
+        <item>Gone with the Wind</item>
+        <item>No Country for Old Men</item>
+        <item>The Sixth Sense</item>
+        <item>There Will Be Blood</item>
+        <item>The Deer Hunter</item>
+        <item>The Thing</item>
+        <item>Kill Bill</item>
+        <item>Sunrise</item>
+        <item>Shutter Island</item>
+        <item>The Bandit</item>
+        <item>How to Train Your Dragon</item>
+        <item>Gone Girl</item>
+        <item>Into the Wild</item>
+        <item>It Happened One Night</item>
+        <item>Network</item>
+        <item>Stand by Me</item>
+        <item>Jurassic Park</item>
+        <item>The Wages of Fear</item>
+        <item>12 Years a Slave</item>
+        <item>Memories of Murder</item>
+        <item>The Truman Show</item>
+        <item>Million Dollar Baby</item>
+        <item>Spotlight</item>
+        <item>Logan</item>
+        <item>X-men</item>
+        <item>Hachi: A Dog\'s Tale </item>
+        <item>Prisoners</item>
+        <item>Catch Me If You Can</item>
+        <item>A Wednesday</item>
+        <item>The Grapes of Wrath</item>
+        <item>Monsters, Inc.</item>
+        <item> Diabolique</item>
+        <item>Gandhi</item>
+        <item>The Terminator</item>
+        <item>Touch of Evil</item>
+        <item>Dead Poets Society</item>
+        <item>Jaws</item>
+        <item>In the Mood for Love</item>
+        <item>Twelve Monkeys</item>
+        <item>Beauty and the Beast</item>
+        <item>Pirates of the Caribbean</item>
+        <item>Get Out</item>
+        <item>Black Panther</item>
+        <item>Lady Bird</item>
+        <item>Argo</item>
+        <item>Ratatouille</item>
+        <item>Chicken Run</item>
+        <item>Back to the Future</item>
+        <item>Titanic</item>
+        <item>Gravity</item>
+        <item>The Martian</item>
+        <item>A Night to Remember</item>
+        <item>Mute</item>
+        <item>The Road Movie</item>
+        <item>Annihilation</item>
+        <item>Venoom</item>
+        <item>Avengers</item>
+        <item>Deadpool</item>
+        <item>Super Troopers</item>
+        <item>Truth or Dare</item>
+        <item>Halloween</item>
+        <item>Traffik</item>
+        <item>Aquaman</item>
+        <item>Tomb Raider</item>
+        <item>Slender Man</item>
+        <item>The Cloverfield Paradox</item>
+        <item>The Girl with the Dragon Tattoo</item>
+        <item>The Adventures of Tintin</item>
+        <item>Coraline</item>
+        <item>Mad Max</item>
+        <item>Aquarius</item>
+        <item>Man on Wire</item>
+        <item>Kung Fu Panda</item>
+        <item>It Follows</item>
+        <item>The Shape of Water</item>
+        <item>The Big Sick</item>
+        <item>The Disaster Artist</item>
+        <item>The Beguiled</item>
+        <item>It Comes at Night</item>
+        <item>Gerald\'s Game</item>
+        <item>Fifty Shades of Grey</item>
+        <item>A Dark Song</item>
+        <item>Graduation</item>
+        <item>Time of Violence </item>
+        <item>The Deer Hunter</item>
+        <item>Midnight Express</item>
+        <item>The Aviator</item>
+        <item>There Will Be Blood</item>
+        <item>Downfall</item>
+        <item>To Kill a Mockingbird</item>
+        <item>As Good as It Gets</item>
+        <item>The Insider</item>
+        <item>Gangs of New York</item>
+        <item>Eyes Wide Shut</item>
+        <item>The Day of the Jackal</item>
+        <item>Doctor Zhivago</item>
+        <item>The Last Emperor</item>
+        <item>Dog Day Afternoon</item>
+        <item>Unforgiven</item>
+        <item> Mystic River</item>
+        <item>Dances with Wolves</item>
+        <item>The King\'s Speech</item>
+        <item>Memories of Murder</item>
+        <item>Sin City</item>
+        <item>Born on the Fourth of July</item>
+        <item>Edge Of Tomorrow</item>
+        <item>Source Code</item>
+        <item>Blood Diamond</item>
+        <item>Rocky</item>
+        <item>Burn After Reading</item>
+        <item>Arrival</item>
+        <item>Mr. Nobody</item>
+        <item>Blue Velvet</item>
+        <item>Man on Fire</item>
+        <item>The Game</item>
+        <item>Snatch</item>
+        <item>Talk to Her</item>
+        <item>All About My Mother</item>
+        <item>Bad Education</item>
+        <item>The Beach</item>
+        <item>Vanilla Sky</item>
+        <item>The Island</item>
+        <item>Scent of a Woman</item>
+        <item>Lost in Translation</item>
+        <item>The Untouchables</item>
+        <item>Big Fish</item>
+        <item>21 Grams</item>
+        <item>The Fighter</item>
+        <item>Apocalypto</item>
+        <item>Black Swan</item>
+        <item>The Social Network </item>
+        <item> The Green Mile</item>
+        <item>Artificial Intelligence</item>
+        <item>The Pursuit of Happyness</item>
+        <item>Seven Pounds</item>
+        <item>The Man Who Would Be King</item>
+        <item>The Mission</item>
+        <item>Mission Impossible</item>
+        <item>The Exorcist</item>
+        <item>Inside Man</item>
+        <item>The Abyss</item>
+        <item>I Am Sam</item>
+        <item>Milk</item>
+        <item>The Next Three Days</item>
+        <item>The Artist</item>
+        <item>The Master</item>
+        <item>Boogie Nights</item>
+        <item>28 Days Later... </item>
+        <item>Cinderella Man</item>
+        <item>Black Hawk Down</item>
+        <item>Dawn of the Dead</item>
+        <item>Planet of the Apes</item>
+        <item>Night of the Living Dead</item>
+        <item>RoboCop</item>
+        <item>Predator</item>
+        <item>Forbidden Games</item>
+        <item>Strangers on a Train</item>
+        <item>Teenage Mutant Ninja Turtles</item>
+        <item>Transformers</item>
+        <item>The Patriot</item>
+        <item>Kingdom of Heaven</item>
+        <item>American Sniper</item>
+        <item>Pearl Harbor</item>
+        <item>Enemy at the Gates</item>
+        <item>Fury</item>
+        <item>We Were Soldiers</item>
+        <item>The Last Samurai</item>
+        <item>Rain Man</item>
+        <item>The English Patient</item>
+        <item>The Hurt Locker</item>
+        <item>Crash</item>
+        <item>The Illusionist</item>
+        <item>The Curious Case of Benjamin Button</item>
+        <item>The Butterfly Effect</item>
+        <item>Limitless</item>
+        <item>The Machinist</item>
+        <item>The Rite</item>
+        <item>Zodiac</item>
+        <item>Primal Fear</item>
+        <item>Predestination</item>
+        <item>Now You See Me</item>
+        <item>Sherlock Holmes</item>
+        <item>First They Killed My Father</item>
+        <item>Maleficent</item>
+        <item>The Tourist</item>
+        <item>Frozen</item>
+        <item>Tangled</item>
+        <item>Charlie and the Chocolate Factory</item>
+        <item>Brave</item>
+        <item>Ace Ventura</item>
+        <item>The Mask</item>
+        <item>Dumb and Dumber</item>
+        <item>Bruce Almighty</item>
+        <item>Liar Liar</item>
+        <item>Me, Myself and Irene</item>
+        <item>Yes Man</item>
+        <item>The Cable Guy</item>
+        <item>There\'s Something About Mary</item>
+        <item>Bruce Almighty</item>
+        <item>The First Time</item>
+        <item>Two Night Stand</item>
+        <item>Law Abiding Citizen</item>
+        <item>Body of Lies</item>
+        <item>Revolutionary Road</item>
+        <item>Cast Away</item>
+        <item>The Revenant</item>
+        <item>Road to Perdition</item>
+        <item>Angels and Demons</item>
+        <item>Apollo 13</item>
+        <item>Inferno</item>
+        <item>Finding Dory</item>
+        <item>Public Enemies</item>
+        <item>Equalizer</item>
+        <item>Pacific Rim</item>
+        <item>War Machine</item>
+        <item>The Whole Nine Yards</item>
+        <item>Win It All</item>
+        <item>Friends With Beneficts</item>
+        <item>The Bounce</item>
+        <item>Tropic Thunder</item>
+        <item>Baby Boss</item>
+        <item>The Invation</item>
+        <item>The Italian Job</item>
+        <item>The Ugly Truth</item>
+        <item>Shrenk</item>
+        <item>The Last Of Mohicans</item>
+        <item>Seven Years In Thivet</item>
+        <item>Hook</item>
+        <item>The Bee Movie</item>
+        <item>The Lego Movie</item>
+        <item>Ridiculus 6</item>
+        <item>Demolition</item>
+        <item>Goosebumps</item>
+        <item>Z Nation</item>
+        <item>Total Recal</item>
+        <item>Doom</item>
+        <item>Wheelman</item>
+        <item>Secret Window</item>
+        <item>The Town</item>
+        <item>Clinical</item>
+        <item>Watchmen</item>
+        <item>8 Mile</item>
+        <item>Megamind</item>
+        <item>The Terminal</item>
+        <item>Robin Hood</item>
+        <item>The 5 wave</item>
+        <item>Salt</item>
+        <item>Hangover</item>
+        <item>Little Evil</item>
+        <item>Approaching The Uknown</item>
+        <item>The Interview</item>
+        <item>Interview with the Vampire</item>
+        <item>20.000 Leagues Under The Sea</item>
+        <item>Requiem for a Dream</item>
+        <item>Hangover</item>
+        <item>The Birds</item>
+        <item>The Man Who Knew Too Much</item>
+        <item>Notorious</item>
+        <item>The Hateful Eight</item>
+        <item>Orphan</item>
+        <item>The Orphanage</item>
+        <item>The Skeleton Key</item>
+        <item>Insidious</item>
+        <item>The Phantom Of The Opera</item>
+        <item>The Devil Wears Prada</item>
+        <item>The Name of the Rose</item>
+        <item>Space Jam</item>
+        <item>Jumanji</item>
+        <item>Wild Things</item>
+        <item>Wild Wild West</item>
+        <item>Wonder Woman</item>
+        <item>Count Dracula</item>
+        <item>Frankenstein</item>
+        <item>The Mask of Zorro</item>
+        <item>Iron Man</item>
+        <item>Captain America</item>
+        <item>Thor</item>
+        <item>Guardians of the Galaxy</item>
+        <item>Doctor Strange</item>
+        <item>Ant-Man</item>
+        <item>Justice League</item>
+        <item>The Incredible Hulk</item>
+        <item>Green Lantern</item>
+        <item>Paths of Glory</item>
+        <item>The Others</item>
+        <item>What Lies Beneath</item>
+        <item>Paranormal Activity</item>
+        <item>Mother!</item>
+        <item>Regression</item>
+        <item>Open Your Eyes</item>
+        <item>Top Gun</item>
+        <item>The Sea Inside</item>
+        <item>Deep Blue Sea</item>
+        <item>Thirteen Ghosts</item>
+        <item>The Lives of Others</item>
+        <item>Bridge of Spies</item>
+        <item>The Thin Red Line</item>
+        <item>The White Ribbon</item>
+        <item>Downfall</item>
+        <item>Black Book</item>
+        <item>The Haunting in Connecticut</item>
+        <item>The Killing of a Sacred Deer</item>
+        <item>Vanilla Sky</item>
+        <item>Armageddon</item>
+        <item>Independence Day</item>
+        <item>Brokeback Mountain</item>
+        <item>Unknown</item>
+
+
+
+    </string-array>
+
+</resources>

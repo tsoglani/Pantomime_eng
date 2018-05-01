@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/pref_bckground"
+  >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:textSize="30dp"
+        android:textIsSelectable="false"
+        android:textColor="@color/black"
+        android:textStyle="bold|italic"
+        android:text="Rounds" />
+<RadioGroup
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_below="@+id/textView"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/radioGroup">
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="5"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:text="10" />
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:text="15" />
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:text="20" />
+
+</RadioGroup>
+
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="55dp"
+
+        android:text="Timer (Sec)"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textIsSelectable="false"
+        android:textSize="25dp"
+        android:textStyle="bold|italic"
+        android:layout_alignLeft="@+id/radioGroup"
+        android:layout_alignStart="@+id/radioGroup"
+        android:layout_alignRight="@+id/radioGroup"
+        android:layout_alignEnd="@+id/radioGroup" />
+
+    <!--<com.warkiz.widget.IndicatorSeekBar-->
+        <!--android:layout_width="250dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+        <!--android:layout_below="@id/textView2"-->
+        <!--app:isb_max="300"-->
+        <!--app:isb_min="30"-->
+        <!--app:isb_tick_type="oval"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--app:isb_progress="90"-->
+        <!--app:isb_tick_num="30"-->
+        <!--app:isb_indicator_type="circular_bubble"-->
+        <!--app:isb_show_indicator="true" />-->
+
+<!--=<RadioGroup-->
+    <!--android:layout_width="200dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:layout_below="@+id/textView2"-->
+    <!--android:layout_centerHorizontal="true">-->
+    <!--<CheckBox-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="30"/>-->
+    <!--<CheckBox-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="60"/>-->
+    <!--<CheckBox-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="90"/>-->
+    <!--<CheckBox-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="120"/>-->
+    <!--<CheckBox-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="180"/>-->
+    <!--<CheckBox-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="240"/>-->
+    <!--<CheckBox-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="300"/>-->
+
+
+<!--</RadioGroup>-->
+
+    <com.warkiz.widget.IndicatorSeekBar
+        android:id="@+id/timer_seek_bar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:isb_indicator_type="circular_bubble"
+        app:isb_progress="50"
+        app:isb_tick_color="@color/Teal"
+        app:isb_text_color="@color/Teal"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/textView2"
+        app:isb_seek_bar_type="discrete_ticks_texts"
+        app:isb_tick_num="8"
+        app:isb_min="90"
+        app:isb_max="300"
+        app:isb_tick_type="oval" />
+</RelativeLayout>

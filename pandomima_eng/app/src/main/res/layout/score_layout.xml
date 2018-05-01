@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="2"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/player_a_scores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/board_up"
+        android:gravity="bottom|center_horizontal"
+        android:textColor="@color/Chalk"
+        android:layout_weight="1"
+        android:textSize="60dp"
+
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/player_b_scores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/board_down"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:textColor="@color/Chalk"
+        android:textSize="60dp"
+        android:textStyle="bold|italic"
+
+        />
+</LinearLayout>

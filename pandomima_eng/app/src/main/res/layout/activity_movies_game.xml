@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/game_center_layout"
+
+    tools:context=".MoviesGameActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/game_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/game_view" />
+
+
+        <TextView
+            android:id="@+id/pandomima_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/center"
+            android:gravity="center"
+            android:textColor="@color/Chalk"
+            android:textSize="25dp"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+
+            android:singleLine="false"
+            android:maxWidth="80dp"
+            android:textStyle="bold|italic" />
+
+
+
+        <Button
+            android:id="@+id/skip_button"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/start_game_button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="29dp"
+          android:background="@drawable/hint1_preview" />
+
+        <TextView
+            android:id="@+id/skips_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_alignEnd="@+id/skip_button"
+            android:layout_alignLeft="@+id/skip_button"
+            android:layout_alignRight="@+id/skip_button"
+            android:layout_alignStart="@+id/skip_button"
+            android:layout_below="@id/skip_button" />
+
+        <Button
+            android:id="@+id/start_game_button"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+android:background="@drawable/start_game_button"
+            android:textSize="30dp"
+            android:layout_below="@+id/pandomima_text"
+            android:layout_centerHorizontal="true" />
+
+
+        <Button
+            android:id="@+id/correct_button"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/right"
+            android:visibility="invisible"
+            android:layout_below="@+id/count_down"
+           android:textStyle="bold|italic"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:id="@+id/wrong_button"
+
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/error"
+            android:visibility="invisible"
+            android:layout_below="@+id/count_down"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <!--<com.alexfu.countdownview.CountDownView-->
+            <!--android:id="@+id/count_down"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textAppearance="@style/TextAppearance.AppCompat.Display1"-->
+            <!--android:layout_below="@+id/pandomima_text"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!---->
+            <!--app:startDuration="60000"/>-->
+
+
+        <TextView
+            android:id="@+id/count_down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:layout_below="@+id/pandomima_text"
+            android:layout_centerHorizontal="true"
+            android:textIsSelectable="false"
+            android:text="00m  00s"
+            android:textSize="40dp"
+            android:letterSpacing="0.1"
+            android:visibility="invisible"
+            android:textStyle="bold|italic"
+           />
+    </RelativeLayout>
+
+
+    <ImageView
+        android:id="@+id/player_icons"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/player_one"
+        android:onClick="player_icons" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/show_round_text"
+        android:text="Round 1"
+        android:textColor="@color/transparent_white_percent_20"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+
+</RelativeLayout>

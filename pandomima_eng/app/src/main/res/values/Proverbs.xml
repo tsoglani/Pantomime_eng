@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="paroimies">
+        <item>Don’t judge a book by its cover</item>
+        <item>Strike while the iron is hot</item>
+        <item>Too many cooks spoil the broth</item>
+        <item>You can’t have your cake and eat it too</item>
+        <item>Many hands make light work</item>
+        <item>Don’t cross the bridge until you come to it</item>
+        <item>Honesty is the best policy</item>
+        <item>Practice makes perfect</item>
+        <item>Where there’s a will, there’s a way</item>
+        <item>Look before you leap</item>
+        <item>Don’t make a mountain out of an anthill.</item>
+        <item>An apple a day keeps the doctor away</item>
+        <item>The early bird catches the worm</item>
+        <item>Better late than never</item>
+        <item>The cat is out of the bag</item>
+        <item>Two wrongs don’t make a right</item>
+        <item>Always put your best foot forward</item>
+        <item>It’s better to be safe than sorry</item>
+        <item>Don’t bite the hand that feeds you</item>
+        <item>The squeaky wheel gets the grease</item>
+        <item>Don’t bite off more than you can chew</item>
+        <item>You made your bed, now you have to lie in it</item>
+        <item>Actions speak louder than words</item>
+        <item>It takes two to tango</item>
+        <item>Don’t count your chickens before they hatch</item>
+        <item>It’s no use crying over spilled milk</item>
+        <item>Don’t put all your eggs Ignorance is blissin one basket</item>
+        <item>People in glass houses shouldn’t throw stones</item>
+        <item>A rolling stone gathers no moss</item>
+        <item>First things first</item>
+        <item>Still waters run deep</item>
+        <item>If it ain\'t broke, don\'t fix it</item>
+        <item>Curiosity killed the cat</item>
+        <item>Learn to walk before you run</item>
+        <item>Money doesn’t grow on trees</item>
+        <item>My hands are tied</item>
+        <item>It’s the tip of the iceberg</item>
+        <item>No news is good news</item>
+        <item>Out of sight, out of mind</item>
+        <item>If you scratch my back, I’ll scratch yours</item>
+        <item>Ignorance is bliss</item>
+        <item>Easy come, easy go</item>
+        <item>The forbidden fruit is always the sweetest</item>
+        <item>Every cloud has a silver lining</item>
+        <item>You can’t make an omelet without breaking a few eggs</item>
+        <item>Close but no cigar</item>
+        <item>The pen is mightier than the sword</item>
+        <item>No man is an island</item>
+        <item>Fortune favors the bold</item>
+        <item>Hope for the best, but prepare for the worst</item>
+        <item>Keep your friends close and your enemies closer</item>
+        <item>A picture is worth a thousand words</item>
+        <item>There\'s no such thing as a free lunch</item>
+        <item>There\'s no place like home</item>
+        <item>Discretion is the greater part of valor</item>
+        <item>Never look a gift horse in the mouth</item>
+        <item>You can\'t always get what you want</item>
+        <item>Cleanliness is next to godliness</item>
+        <item>Beggars can\'t be choosers</item>
+        <item>A watched pot never boils</item>
+        <item>All good things must come to an end</item>
+        <item>If you can\'t beat \'em, join \'em</item>
+        <item>One man\'s trash is another man\'s treasure</item>
+        <item>There\'s no time like the present</item>
+        <item>Beauty is in the eye of the beholder</item>
+        <item>Necessity is the mother of invention</item>
+        <item>A penny saved is a penny earned</item>
+        <item>Familiarity breeds contempt</item>
+        <item>Good things come to those who wait</item>
+        <item>The grass is always greener on the other side of the hill</item>
+        <item>Do unto others as you would have them do unto you</item>
+        <item>A chain is only as strong as its weakest link</item>
+        <item>Absence makes the heart grow fonder</item>
+        <item>You can lead a horse to water, but you can not make him drink</item>
+        <item>If you want something done right, you have to do it yourself</item>
+        <item>A barking dog never bites</item>
+        <item>A dog is a man\'s best friend</item>
+        <item>A friend in need is a friend indeed</item>
+        <item>A fish always rots from the head down</item>
+        <item>A drowning man will clutch at a straw</item>
+        <item>A golden key can open any door</item>
+        <item>A good beginning makes a good ending</item>
+        <item>A good man is hard to find</item>
+        <item>A house is not a home</item>
+        <item>A journey of a thousand miles begins with a single step</item>
+        <item>A man is known by his friends</item>
+        <item>A poor workman always blames his tools </item>
+        <item>A problem shared is a problem halved</item>
+        <item>Accidents will happen</item>
+        <item>Absolute power corrupts absolutely</item>
+        <item>After a storm comes a calm </item>
+        <item>All roads lead to Rome</item>
+        <item>All that glitters is not gold</item>
+        <item>An eye for an eye, a tooth for a tooth</item>
+        <item>Ashes to ashes dust to dust</item>
+        <item>Ask no questions and hear no lies </item>
+        <item>Big fish eat little fish</item>
+        <item>Boys will be boys</item>
+        <item>Business before pleasure</item>
+        <item>Cheaters never win and winners never cheat</item>
+        <item>Children and fools tell the truth</item>
+        <item>Christmas comes but once a year</item>
+        <item>Comparisons are odious</item>
+        <item>Count your blessings</item>
+        <item>Cut your coat to suit your cloth</item>
+        <item>Dead men tell no tales</item>
+        <item>Do as I say, not as I do</item>
+        <item>Do not burn your bridges behind you</item>
+        <item>Do not cast your pearls before swine</item>
+        <item>Do not get mad, get even</item>
+        <item>Do not keep a dog and bark yourself</item>
+        <item>Do not leave your manners on the doorstep</item>
+        <item>Do not let the bastards grind you down</item>
+        <item>Do not teach your Grandma to suck eggs</item>
+        <item>Do not throw the baby out with the bathwater</item>
+        <item>Doubt is the beginning not the end of wisdom</item>
+        <item>Early to bed and early to rise, makes a man healthy, wealthy and wise</item>
+        <item>Eat, drink and be merry, for tomorrow we die</item>
+        <item>Enough is enough</item>
+        <item>Even a worm will turn</item>
+        <item>Every dog has its day</item>
+        <item>Every man has his price</item>
+        <item>Every picture tells a story</item>
+        <item>Every stick has two ends</item>
+        <item>Everyone wants to go to heaven but nobody wants to die</item>
+        <item>Faith will move mountains</item>
+        <item>Fight fire with fire</item>
+        <item>Finders keepers, losers weepers</item>
+        <item>Fine words butter no parsnips</item>
+        <item>First come, first served</item>
+        <item>First impressions are the most lasting</item>
+        <item>Forgive and forget</item>
+        <item>Fortune favours the brave</item>
+        <item>God helps those who help themselves</item>
+        <item>Good things come in small packages</item>
+        <item>Haste makes waste</item>
+        <item>He who fights and runs away, may live to fight another day</item>
+        <item>He who laughs last laughs longest</item>
+        <item>History repeats itself</item>
+        <item>Home is where the heart is</item>
+        <item>If anything can go wrong, it will</item>
+        <item>If the shoe fits, wear it</item>
+        <item>Imitation is the sincerest form of flattery</item>
+        <item>Into every life a little rain must fall</item>
+        <item>It goes without saying</item>
+        <item>It takes a thief to catch a thief</item>
+        <item>It takes all sorts to make a world</item>
+        <item>It\'s never too late</item>
+        <item>It\'s the singer not the song</item>
+        <item>Know which side your bread is buttered</item>
+        <item>Laughter is the best medicine</item>
+        <item>Least said, soonest mended</item>
+        <item>Less is more</item>
+        <item>Let not the sun go down on your wrath</item>
+        <item>Let bygones be bygones</item>
+        <item>Let sleeping dogs lie</item>
+        <item>Let the punishment fit the crime</item>
+        <item>Life is just a bowl of cherries</item>
+        <item>Lightning never strikes twice in the same place</item>
+        <item>Like father, like son</item>
+        <item>Little things please little minds</item>
+        <item>Live and learn</item>
+        <item>Live for today for tomorrow never comes</item>
+        <item>Love is blind</item>
+        <item>Love makes the world go round</item>
+        <item>Love will find a way</item>
+        <item>Make love not war</item>
+        <item>Many are called but few are chosen</item>
+        <item>Might is right</item>
+        <item>Money isn\'t everything</item>
+        <item>Nature abhors a vacuum</item>
+        <item>Never go to bed on an argument</item>
+        <item>Never put off until tomorrow what you can do today</item>
+        <item>Never speak ill of the dead</item>
+        <item>No pain, no gain</item>
+        <item>No rest for the wicked</item>
+        <item>Nothing new under the sun</item>
+        <item>Once a thief, always a thief</item>
+        <item>Once bitten, twice shy</item>
+        <item>One man\'s meat is another man\'s poison</item>
+        <item>One swallow does not make a summer</item>
+        <item>One volunteer is worth ten pressed men</item>
+        <item>One year\'s seeding makes seven years weeding</item>
+        <item>Only fools and horses work</item>
+        <item>Patience is a virtue</item>
+        <item>Pearls of wisdom</item>
+        <item>Prevention is better than cure</item>
+        <item>Pride goes before a fall</item>
+        <item>Revenge is a dish best served cold</item>
+        <item>Rome wasn\'t built in a day</item>
+        <item>Seeing is believing</item>
+        <item>Silence is golden</item>
+        <item>Slow but sure</item>
+        <item>Spare the rod and spoil the child</item>
+        <item>Talk is cheap</item>
+        <item>The apple never falls far from the tree</item>
+        <item>The best defence is a good offence</item>
+        <item>The best things in life are free</item>
+        <item>The bigger, the better</item>
+        <item>The bigger they are, the harder they fall</item>
+        <item>The boy is father to the man</item>
+        <item>The customer is always right</item>
+        <item>The darkest hour is just before the dawn</item>
+        <item>The exception which proves the rule</item>
+        <item>The husband is always the last to know</item>
+        <item>The more the merrier</item>
+        <item>The more things change, the more they stay the same</item>
+        <item>The way to a man\'s heart is through his stomach</item>
+        <item>There\'s always more fish in the sea</item>
+        <item>There\'s no smoke without fire</item>
+        <item>There\'s no such thing as bad publicity</item>
+        <item>Third time lucky</item>
+        <item>Those who do not learn from history are doomed to repeat it</item>
+        <item>Time is a great healer</item>
+        <item>Tomorrow is another day</item>
+        <item>Two blacks don\'t make a white</item>
+        <item>When the cat\'s away the mice will play</item>
+        <item>You are what you eat</item>
+        <item>You win some, you lose some</item>
+        <item>Youth is wasted on the young</item>
+        <item>You catch more flies with honey than with vinegar</item>
+</string-array>
+
+</resources>

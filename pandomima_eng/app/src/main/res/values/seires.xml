@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="seires">
+        <item>Westworld</item>
+        <item>Friends</item>
+        <item>Lost in Space</item>
+        <item>The Walking Dead</item>
+        <item>The Handmaid\'s Tale</item>
+        <item>Suits</item>
+        <item>Game of Thrones</item>
+        <item>Supernatural</item>
+        <item>Homeland</item>
+        <item>Fear the Walking Dead</item>
+        <item>Arrow</item>
+        <item>The Flash</item>
+        <item>Riverdale</item>
+        <item>The Alienist</item>
+        <item>Agents of S.H.I.E.L.D.</item>
+        <item>Lucifer</item>
+        <item>Billions</item>
+        <item>The Terror</item>
+        <item>Criminal Minds</item>
+        <item>The Originals</item>
+        <item>The Blacklist</item>
+        <item>Vikings</item>
+        <item>The Office</item>
+        <item>Stranger Things</item>
+        <item>The Big Bang Theory</item>
+        <item>The Expanse</item>
+        <item>Legion</item>
+        <item>A Series of Unfortunate Events</item>
+        <item>Black Mirror</item>
+        <item>Once Upon a Time</item>
+        <item>Lost in Space</item>
+        <item>Deception</item>
+        <item>Deception</item>
+        <item>Legends of Tomorrow</item>
+        <item>Breaking Bad</item>
+        <item>Genius</item>
+        <item>Smallville</item>
+        <item>Orange Is the New Black </item>
+        <item>The Vampire Diaries</item>
+        <item>Ash vs Evil Dead</item>
+        <item>Mr. Robot</item>
+        <item>Modern Family</item>
+        <item>How I Met Your Mother</item>
+        <item>The Punisher</item>
+        <item>Rick and Morty</item>
+        <item>The Simpsons</item>
+        <item>South Park</item>
+        <item>Power Rangers</item>
+        <item>Dragon ball</item>
+        <item>The powerpuff Girls</item>
+        <item>Scooby-Doo</item>
+        <item>The Bugs Bunny Show</item>
+        <item>Pokémon</item>
+        <item>Tom and Jerry</item>
+        <item>The Flintstones</item>
+        <item>Sailor Moon</item>
+        <item>One Piece</item>
+        <item>Death Note</item>
+        <item>Atypical</item>
+        <item>The Wire</item>
+        <item>Planet Earth</item>
+        <item>Cosmos</item>
+        <item>The Sopranos</item>
+        <item>Life</item>
+        <item>True Detective</item>
+        <item>The Blue Planet</item>
+        <item>Sons of Anarchy</item>
+        <item>Erased</item>
+        <item>Lost</item>
+        <item>Billions</item>
+        <item>Star Trek</item>
+        <item>How to Get Away with Murder</item>
+        <item>Outlander</item>
+        <item>The Crown</item>
+        <item>Doctor Who</item>
+        <item>The Last Man on Earth</item>
+        <item>Prison Break</item>
+        <item>The X-Files</item>
+        <item>Blindspot</item>
+        <item>Two and a Half Men</item>
+        <item>Scorpion</item>
+        <item>Teen Wolf</item>
+        <item>Pretty Little Liars</item>
+        <item>Black Lightning</item>
+        <item>Bones</item>
+        <item>The Magicians</item>
+        <item>Code Black</item>
+        <item>Glow</item>
+        <item>Mad Men</item>
+        <item>Big Little Lies</item>
+        <item>House of Cards</item>
+        <item>Daredevil</item>
+        <item>Dark</item>
+        <item>Unforgotten</item>
+        <item>Gossip Girl</item>
+        <item>Sense8</item>
+        <item>The Last Kingdom</item>
+        <item>Castle</item>
+        <item>Black Sails</item>
+        <item>Law and Order</item>
+        <item>Desperate Housewives</item>
+        <item>The Good Place</item>
+        <item>Charmed</item>
+        <item>The Man in the High Castle</item>
+        <item>Seven Seconds</item>
+        <item>Sex and the City</item>
+        <item>The Leftovers</item>
+        <item>Iron Fist</item>
+        <item>The Sinner</item>
+        <item>Salvation</item>
+        <item>Fringe</item>
+        <item>Taken</item>
+        <item>The Bridge</item>
+        <item>Shooter</item>
+        <item>Orphan Black</item>
+        <item>Younger</item>
+        <item>Frontier</item>
+        <item>Ghost Whisperer</item>
+        <item>The Brave</item>
+        <item>Killjoys</item>
+        <item>7th Heaven</item>
+        <item>The Following</item>
+        <item>Baywatch</item>
+        <item>Inhumans</item>
+        <item>The Mechanism</item>
+        <item>Beauty and the Beast</item>
+        <item>The Little Mermaid</item>
+        <item>Hercules</item>
+        <item>Xena: Warrior Princess</item>
+        <item>Roar</item>
+        <item>Bewitched</item>
+        <item>Legents of Tomorrow</item>
+        <item>Constantine</item>
+        <item>DuckTales</item>
+        <item>Aladdin</item>
+        <item>Mickey Mouse</item>
+        <item>The Smurfs</item>
+        <item>Popeye</item>
+        <item>Looney Tunes</item>
+        <item>Happy Tree Friends</item>
+        <item>X-Men</item>
+        <item>SpongeBob SquarePants</item>
+        <item>The Real Ghostbusters</item>
+        <item>Thundercats</item>
+        <item>Inspector Gadget</item>
+        <item>Dungeons n Dragons</item>
+        <item>The Pink Panther Show</item>
+        <item>Mars</item>
+        <item>The Returned</item>
+        <item>Story Of God</item>
+        <item>The new Legends of Monkey</item>
+        <item>Colony</item>
+        <item>Black Sails</item>
+        <item>The Musketeers</item>
+        <item>Timeless</item>
+        <item>Chosen</item>
+        <item>The Defenders</item>
+        <item>Superstition</item>
+        <item>Love</item>
+        <item>The Mist</item>
+        <item>Reboot</item>
+        <item>Dope</item>
+        <item>Godless</item>
+        <item>Ascension</item>
+        <item>Requiem</item>
+        <item>Between</item>
+        <item>The Goodwife</item>
+        <item>Animal Planet</item>
+        <item>Master Of Sex</item>
+        <item>Biten</item>
+        <item>Scream</item>
+        <item>Pacman</item>
+        <item>Grand Hotel</item>
+        <item>Ghost Wars</item>
+        <item>Still Game</item>
+        <item>Happy Days</item>
+        <item>Drunk History</item>
+        <item>Shades of Blue</item>
+        <item>Haven</item>
+        <item>Doctor Who</item>
+        <item>Ghost Adventures</item>
+        <item>You\'re the Worst</item>
+        <item>The Detour</item>
+        <item>Gypsy</item>
+        <item>Nip/Tuck</item>
+        <item>Velvet</item>
+        <item>F Is for Family</item>
+        <item>Drop Dead Diva</item>
+        <item>The League</item>
+        <item>Cheers</item>
+        <item>Sesame Street</item>
+        <item>Survivor</item>
+        <item>Twin Peaks</item>
+        <item>Good Behavior</item>
+        <item> The Tunnel</item>
+        <item>The Nanny</item>
+        <item>I Dream of Jeannie</item>
+        <item>The Addams Family</item>
+        <item>Married with Children</item>
+        <item>Dream On</item>
+        <item>Episodes</item>
+        <item>Cougar Town</item>
+        <item>Get Smart</item>
+        <item>Bulletproof</item>
+        <item>Naked and Afraid</item>
+        <item>Brothers and Sisters </item>
+        <item>All My Children</item>
+        <item>The Ministry of Time</item>
+        <item>Kingdom</item>
+        <item>Whose Line Is It Anyway?</item>
+        <item>Loaded</item>
+        <item>Occupied</item>
+        <item>Comedians in Cars Getting Coffee</item>
+        <item>In the Long Run</item>
+        <item>Outcast</item>
+        <item>Spin City</item>
+        <item>Revolution</item>
+        <item>Stitchers</item>
+        <item>Making a Murderer</item>
+        <item>My Three Sons</item>
+        <item>Top Gear</item>
+        <item>No Offence</item>
+        <item>In the Heat of the Night</item>
+        <item>The Knick</item>
+        <item>Utopia</item>
+        <item>The Grand Tour</item>
+        <item>The Get Down</item>
+        <item>Emergency!</item>
+        <item>The Munsters</item>
+        <item>Being Human</item>
+        <item>Dark Angel</item>
+        <item>House of Lies</item>
+        <item>Casual</item>
+        <item>One Strange Rock</item>
+        <item>Speechless</item>
+        <item>A Touch of Frost</item>
+        <item>Poirot</item>
+        <item>Sherlock</item>
+        <item>Mystery</item>
+        <item>Elementary</item>
+        <item>Ashes to Ashes</item>
+        <item>The Guilty</item>
+        <item>Forever</item>
+        <item>Bloodline</item>
+        <item>The Night Of</item>
+        <item>Alcatraz</item>
+        <item>Prime Suspect</item>
+        <item>Veep</item>
+        <item>Insecure</item>
+        <item>Underground</item>
+        <item>X Company</item>
+        <item>One Life to Live</item>
+        <item>Life Unexpected</item>
+        <item>The Catch</item>
+        <item>Altered Carbon</item>
+        <item>Master of None</item>
+        <item>Odd Mom Out</item>
+        <item>Wild Wild Country</item>
+        <item>Everything Sucks</item>
+        <item>Counterpart</item>
+        <item>Arrested Development</item>
+        <item>The Good Fight</item>
+        <item>One Day at a Time</item>
+        <item>The Gifted</item>
+        <item>Runaways</item>
+        <item>Freedom Fighters</item>
+        <item>Superboy</item>
+        <item>Swamp Thing</item>
+        <item>Human Target</item>
+        <item>Powerless</item>
+        <item>Preacher</item>
+        <item>The Muppet Show</item>
+        <item>Big Hero 6</item>
+        <item>Timon and Pumbaa</item>
+        <item>Cars Toons</item>
+        <item>Jungle Junction</item>
+        <item>Tangled</item>
+        <item>Stuck in the Middle</item>
+        <item>Gravity Falls</item>
+        <item>Donald Duck Presents</item>
+        <item>You and Me Kid</item>
+        <item>Rostered On</item>
+        <item>Mistresses</item>
+        <item>Mad About You</item>
+        <item>Trapped</item>
+        <item>Patriot</item>
+        <item>Dancing with the Stars</item>
+        <item>Wrecked</item>
+        <item>Aquarius</item>
+        <item>Dinosaurs</item>
+        <item>Are You Afraid of the Dark?</item>
+        <item>8 Simple Rules</item>
+        <item>Hustle</item>
+        <item>Lovesick</item>
+        <item>Southern Charm</item>
+        <item>Dirty Money</item>
+        <item>In Living Color</item>
+        <item>The Innocents</item>
+        <item>Mr. Bean</item>
+        <item>The Last Post</item>
+        <item>Rescue Me</item>
+        <item>Mosaic</item>
+        <item>Nailed It!</item>
+
+
+
+
+    </string-array>
+</resources>
