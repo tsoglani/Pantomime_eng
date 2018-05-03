@@ -53,7 +53,7 @@ public class MoviesGameActivity extends AppCompatActivity implements RewardedVid
     private int playerAScore = 0;
     private int playerBScore = 0;
     private int curentScore = 0;
-
+private String font="Sketch_Block.ttf";//Gecko_PersonalUseOnly.ttf
     private ArrayList<String> movies = new ArrayList();
 //    private int totalSkip = 1;
 
@@ -122,7 +122,7 @@ public class MoviesGameActivity extends AppCompatActivity implements RewardedVid
         player_b_scores.setTypeface(tf);
 
 
-        Typeface tfpandomima_text = Typeface.createFromAsset(this.getAssets(), "Gecko_PersonalUseOnly.ttf");
+        Typeface tfpandomima_text = Typeface.createFromAsset(this.getAssets(),font );
         player_a_scores.setTypeface(tf);
 
         pandomima_text.setTypeface(tfpandomima_text);
@@ -183,9 +183,15 @@ public class MoviesGameActivity extends AppCompatActivity implements RewardedVid
                                         createBanner();
 
                                         playerACountSkips--;
-                                        skips_textString = ( playerACountSkips) + " Remain";
+
+                                        if (playerACountSkips>1){
+                                            skips_textString = ( playerACountSkips) + " Hints Remaining";
+
+                                        }else if(playerACountSkips==1){
+                                            skips_textString = ( playerACountSkips) + " Hint Remaining";
+                                        }
                                         if (( playerACountSkips) <= 0) {
-                                            skips_textString = "You have to see a video, for one last hint..";
+                                            skips_textString = "Watch an ad, for an extra hint.";
                                         }
 
                                     } else if (playerAHaveOneMoreChance) {
@@ -198,14 +204,14 @@ public class MoviesGameActivity extends AppCompatActivity implements RewardedVid
                                             runOnUiThread(new Thread() {
                                                 @Override
                                                 public void run() {
-                                                    Toast.makeText(pando.tsoglanakos.mime_eng.MoviesGameActivity.this, "You have to see a video for one last hint..", Toast.LENGTH_SHORT).show();
+                                                    Toast.makeText(pando.tsoglanakos.mime_eng.MoviesGameActivity.this, "Watch an ad, for an extra hint.", Toast.LENGTH_SHORT).show();
                                                 }
                                             });
                                         } else {
                                             runOnUiThread(new Thread() {
                                                 @Override
                                                 public void run() {
-                                                    Toast.makeText(pando.tsoglanakos.mime_eng.MoviesGameActivity.this, "You have no more Hints", Toast.LENGTH_SHORT).show();
+                                                    Toast.makeText(pando.tsoglanakos.mime_eng.MoviesGameActivity.this, "You are out of Hints!", Toast.LENGTH_SHORT).show();
                                                 }
                                             });
                                         }
@@ -214,10 +220,15 @@ public class MoviesGameActivity extends AppCompatActivity implements RewardedVid
                                 } else {
                                     if (playerBCountSkips >0) {
                                         playerBCountSkips--;
-                                        skips_textString = ( playerBCountSkips) + " Remain";
+                                        if (playerBCountSkips>1){
+                                            skips_textString = ( playerBCountSkips) + " Hints Remaining";
+
+                                        }else if(playerBCountSkips==1){
+                                            skips_textString = ( playerBCountSkips) + " Hint Remaining";
+                                        }
                                         createBanner();
                                         if (( playerBCountSkips) <= 0) {
-                                            skips_textString = "You have to see the video for one last hint..";
+                                            skips_textString = "Watch an ad, for an extra hint.";
                                         }
 
                                     } else if (playerBHaveOneMoreChance) {
@@ -230,14 +241,14 @@ public class MoviesGameActivity extends AppCompatActivity implements RewardedVid
                                             runOnUiThread(new Thread() {
                                                 @Override
                                                 public void run() {
-                                                    Toast.makeText(pando.tsoglanakos.mime_eng.MoviesGameActivity.this, "You have to see the video for one last hint..", Toast.LENGTH_SHORT).show();
+                                                    Toast.makeText(pando.tsoglanakos.mime_eng.MoviesGameActivity.this, "Watch an ad, for an extra hint.", Toast.LENGTH_SHORT).show();
                                                 }
                                             });
                                         } else {
                                             runOnUiThread(new Thread() {
                                                 @Override
                                                 public void run() {
-                                                    Toast.makeText(pando.tsoglanakos.mime_eng.MoviesGameActivity.this, "You have no more Hints", Toast.LENGTH_SHORT).show();
+                                                    Toast.makeText(pando.tsoglanakos.mime_eng.MoviesGameActivity.this, "You are out of Hints!", Toast.LENGTH_SHORT).show();
                                                 }
                                             });
                                         }
@@ -320,9 +331,9 @@ public class MoviesGameActivity extends AppCompatActivity implements RewardedVid
     private RewardedVideoAd mRewardedVideoAd;
 
     private InterstitialAd mInterstitialAd;
-    private static String appID = "ca-app-pub-6197752096190071~2241123642"; //"ca-app-pub-6197752096190071~2087164686";
-    private static final String AD_UNIT_REWARD_ID = "ca-app-pub-6197752096190071/7877180434",
-            AD_UNIT_ID2 = "ca-app-pub-6197752096190071/6708349242";
+    private static String appID = "ca-app-pub-6197752096190071~7439742292"; //"ca-app-pub-6197752096190071~2087164686";
+    private static final String AD_UNIT_REWARD_ID = "ca-app-pub-6197752096190071/7794965518",
+            AD_UNIT_ID2 = "ca-app-pub-6197752096190071/3664148811";
 
 
     //user id reward   ->  ca-app-pub-6197752096190071/7877180434
@@ -383,7 +394,7 @@ public class MoviesGameActivity extends AppCompatActivity implements RewardedVid
             @Override
             public void run() {
                 pandomima_text.setText(getAPandomimaText());
-                skips_textString = "You have no more Hints";
+                skips_textString = "You are out of Hints!";
                 skips_text_view.setText(skips_textString);
             }
         });
@@ -609,7 +620,7 @@ public class MoviesGameActivity extends AppCompatActivity implements RewardedVid
                         runOnUiThread(new Thread(){
                             @Override
                             public void run() {
-                                Typeface tf = Typeface.createFromAsset(getAssets(), "Gecko_PersonalUseOnly.ttf");
+                                Typeface tf = Typeface.createFromAsset(getAssets(), font);
                                 pandomima_text.setTextColor(getResources().getColor(R.color.Chalk));
 
                                 pandomima_text.setTypeface(tf);
@@ -780,7 +791,11 @@ public class MoviesGameActivity extends AppCompatActivity implements RewardedVid
                     start_game_button.setVisibility(View.VISIBLE);
                     skip_button.setVisibility(View.VISIBLE);
                     skips_text_view.setVisibility(View.VISIBLE);
-                    skips_text_view.setText((playerACountSkips) + " Remains");
+                    if(playerACountSkips>1){
+                        skips_text_view.setText((playerACountSkips) + " Hints Remaining");
+
+                    }else
+                    skips_text_view.setText((playerACountSkips) + " Hint Remaining");
 
                 }
             });
@@ -810,7 +825,7 @@ public class MoviesGameActivity extends AppCompatActivity implements RewardedVid
             runOnUiThread(new Thread(){
                 @Override
                 public void run() {
-                    Typeface tf = Typeface.createFromAsset(getAssets(), "Gecko_PersonalUseOnly.ttf");
+                    Typeface tf = Typeface.createFromAsset(getAssets(), font);
                     pandomima_text.setTypeface(tf);
                     pandomima_text.setTextColor(getResources().getColor(R.color.Chalk));                }
             });
@@ -842,7 +857,11 @@ public class MoviesGameActivity extends AppCompatActivity implements RewardedVid
                 public void run() {
                     start_game_button.setVisibility(View.VISIBLE);
                     skip_button.setVisibility(View.VISIBLE);
-                    skips_text_view.setText((playerBCountSkips) + " Remains");
+                    if(playerBCountSkips>1){
+                        skips_text_view.setText((playerBCountSkips) + " Hints Remaining");
+
+                    }else
+                        skips_text_view.setText((playerBCountSkips) + " Hint Remaining");
                     skips_text_view.setVisibility(View.VISIBLE);
 
                 }
@@ -873,7 +892,7 @@ public class MoviesGameActivity extends AppCompatActivity implements RewardedVid
             runOnUiThread(new Thread(){
                 @Override
                 public void run() {
-                    Typeface tf = Typeface.createFromAsset(getAssets(), "Gecko_PersonalUseOnly.ttf");
+                    Typeface tf = Typeface.createFromAsset(getAssets(), font);
                     pandomima_text.setTypeface(tf);
                     pandomima_text.setTextColor(getResources().getColor(R.color.Chalk));                }
             });

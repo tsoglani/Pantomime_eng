@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/menu"
-    tools:context="pandomime.dr.tsoglanakos.myapplication.MainActivity">
+    tools:context=".MainActivity">
 
 
 <RelativeLayout
@@ -39,7 +39,7 @@
         android:background="@color/BeeYellow"
         android:layout_width="150dp"
         android:layout_height="70dp"
-        android:text="Commercial"
+        android:text="Commercials"
         android:textStyle="bold|italic"
         android:gravity="center"
         android:textIsSelectable="false"
@@ -70,7 +70,7 @@
         android:textSize="25dp"
         android:layout_width="150dp"
         android:layout_height="70dp"
-        android:text="Series"
+        android:text="TV Shows"
         android:layout_marginBottom="10dp"
         android:textStyle="bold|italic"
         android:gravity="center"
@@ -91,7 +91,7 @@
         android:layout_marginBottom="10dp"
         android:background="@color/costum_green"
         android:gravity="center"
-        android:text="Compination"
+        android:text="Mixed"
         android:textIsSelectable="false"
         android:textSize="25dp"
         android:textStyle="bold|italic" />

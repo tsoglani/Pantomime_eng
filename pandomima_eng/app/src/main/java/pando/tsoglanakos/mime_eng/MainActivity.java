@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
     protected static String ROUNDS = "game_rounds", TIME = "game_timer_per_game";
     private IndicatorSeekBar timer_seek_bar;
     private RadioGroup radioGroup;
-    private String info="Pantomime app, with various categories. You have an option to change text by pressing the \"Hint\" button, for every new round, you have an extra hint. \n\n\nEnjoy the game and have a nice time!\n  \n\n\n\nDeveloper: Gaitanis Nikos\nDesigner: Giannis Tzortzis\nExternal partner: Alexandros Tomadakis.";
+    private String info="Pantomime app, with various categories. It is possible to change the phrase by pressing the \"Hint\" button once per round. Unused hints will be available in the following rounds.\n\n\nEnjoy the game and have a nice time!\n  \n\n\n\nDeveloper: Gaitanis Nikos\nDesigner: Giannis Tzortzis\nExternal partner: Alexandros Tomadakis.";
     public static enum TYPE {atakes, diafimiseis, tainies, seires, aisthisiakes, paroimies, mix}
 
     public static TYPE selectedType;
@@ -365,7 +365,7 @@ public class MainActivity extends AppCompatActivity {
                 .setTopColorRes(R.color.costum_orange2)
                 .setButtonsColorRes(R.color.costum_orange2)
                 .setIcon(R.drawable.info2)
-                .setTitle("Informations")
+                .setTitle("Information")
                 .setMessage(info)
                 .setTopColorRes(R.color.costum_orange2)
                 .setPositiveButton(android.R.string.ok, new View.OnClickListener() {
